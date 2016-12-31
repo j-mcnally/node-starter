@@ -1,0 +1,20 @@
+{
+  "name": "node-starter-static",
+  "authors": [
+    "Justin McNally <justin@kohactive.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}

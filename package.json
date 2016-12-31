@@ -1,0 +1,34 @@
+{
+  "name": "node-starter",
+  "version": "1.0.0",
+  "description": "Starter template for node",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "dev": "nodemon index.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/j-mcnally/node-starter"
+  },
+  "keywords": [
+    "node-template"
+  ],
+  "author": "j-mcnally",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-2": "^6.11.0",
+    "babel-preset-stage-3": "^6.11.0",
+    "babel-preset-es2017": "^1.6.1",
+    "nodemon": "^1.10.0"
+  },
+  "dependencies": {
+    "express.oi": "0.0.21",
+    "mongorito": "^2.1.2",
+    "node-uuid": "^1.4.7"
+  }
+}
