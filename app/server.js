@@ -4,7 +4,7 @@ import Db from './db/connection'
 export default class {
   constructor() {
     this.server = Express();
-    this.server.use(Express.static('static'));
+    this.server.use(Express.static('static/dist'));
   }
 
   start() {
